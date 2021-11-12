@@ -1,4 +1,4 @@
-A friend showed me a job interview question to create a RESTful API with a few endpoints.
+A friend showed me a job interview question for .NET to create a RESTful API with a few endpoints.
 
 I have attempted to recreate that in JavaScript with Express, Node.js, and a cool in-memory db called loki-js mixed with json validation from ajv.
 
