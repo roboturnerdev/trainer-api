@@ -16,6 +16,10 @@ node app.js
 
 connect to app in browser at : localhost:3000/trainers/
 
+POSTMAN used for PUT and PATCH requests.
+Content-Type: application/json
+Body: raw (JSON)
+
 endpoints:
 1. add new trainer: put request to trainers/
 2. see all trainers: get request to trainers/
