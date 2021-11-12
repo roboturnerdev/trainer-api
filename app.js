@@ -26,6 +26,7 @@ app.listen(serverPort, () => {
     console.log('estamos girando');
 });
 
+// refactor
 // {
 //     "id" : "trainer-id-000001",
 //     "email" : "trainer@campgladiator.com",
