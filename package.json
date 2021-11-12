@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ajv": "^8.7.1",
     "express": "^4.17.1",
-    "lokijs": "^1.5.12"
+    "lokijs": "^1.5.12",
+    "underscore": "^1.13.1"
   }
 }
