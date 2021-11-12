@@ -9,7 +9,7 @@ module.exports = trainerSchema = {
         firstName: {type: "string"},
         lastName: {type: "string"},
         email: {type: "string"},
-        phone: {type: "number"}
+        phone: {type: "string"}
     },
     required: ["firstName", "lastName", "email", "phone"]
 };

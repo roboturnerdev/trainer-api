@@ -3,6 +3,10 @@ const router = express.Router();
 const Loki = require('lokijs');
 const catchAsync = require('../scripts/catchAsync');
 
+const Ajv = require('ajv');
+const ajv = new Ajv();
+const validTrainer = ajv.compile(require('../models/trainer'));
+
 // index
 router.get('/', catchAsync(async(req, res) => {
     const { db } = res.locals;
@@ -22,16 +26,25 @@ router.get('/:id', catchAsync(async (req, res) => {
 //new
 router.put('/', catchAsync(async(req, res, next) => {
     const { db } = res.locals;
-    const newTrainer = await db.insert({
+    
+    const newTrainer = {
         email: req.body.email,
         phone: req.body.phone,
         firstName: req.body.firstName,
         lastName: req.body.lastName,
         address: req.body.address
-    });
-    if(!newTrainer) return res.send('didnt make trainer');
-    console.log('made a trainer!');
-    res.json(newTrainer);
+    };
+
+    // json validation
+    const valid = validTrainer(newTrainer);
+    if (!valid) {
+        console.log(validTrainer.errors);
+        return res.send('did not make trainer');
+    } else {
+        const addedTrainer = await db.insert(newTrainer);
+        console.log('made a trainer!');
+        res.json(addedTrainer);
+    }
 }));
 
 // update
@@ -49,7 +62,6 @@ router.patch('/', catchAsync(async (req, res) => {
         return found;
     });
     const updatedTrainer = db.findOne({'$loki': req.body.$loki});
-    console.log(updatedTrainer);
     res.json(updatedTrainer);
 }));
 
