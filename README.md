@@ -3,8 +3,15 @@ A friend showed me a job interview question to create a RESTful API with a few e
 I have attempted to recreate that in JavaScript.
 
 TO RUN:
+
 cd to root directory of trainer-api/app.js
 
+run these two lines:
+
+1. install dependencies
+npm i
+
+2. start server
 node app.js
 
 connect to app in browser at : localhost:3000/trainers/
