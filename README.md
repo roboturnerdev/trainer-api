@@ -1,10 +1,10 @@
 A friend showed me a job interview question to create a RESTful API with a few endpoints.
 
-I have attempted to recreate that in JavaScript.
+I have attempted to recreate that in JavaScript with Express, Node.js, and a cool in-memory db called loki-js mixed with json validation from ajv.
 
 TO RUN:
 
-cd to root directory of trainer-api/app.js
+cd to root directory of the project
 
 run these two lines:
 
