@@ -15,3 +15,8 @@ module.exports.createNewTrainer = async (req, res) => {
     const addedTrainer = await TrainersServiceInstance.createNewTrainer(res.locals.trainer);
     res.json(addedTrainer);
 };
+
+module.exports.getTrainerById = async (req, res) => {
+    const foundTrainer = await TrainersServiceInstance.findTrainerById(res.locals.id);
+    res.json(foundTrainer);
+};

@@ -18,6 +18,10 @@ class TrainersService {
     async createNewTrainer(trainer){
         return await this.TrainersRepositoryInstance.createNewTrainer(trainer);
     }
+
+    async findTrainerById(id){
+        return await this.TrainersRepositoryInstance.findTrainerById(id);
+    }
 }
 
 module.exports = TrainersService;

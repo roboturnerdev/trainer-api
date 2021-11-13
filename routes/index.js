@@ -17,10 +17,6 @@ const routes = app => {
         next();
     } );
 
-    app.use((req, res, next) => {
-        next();
-    });
-
     app.use('/', TrainersRouter);
 };
 
