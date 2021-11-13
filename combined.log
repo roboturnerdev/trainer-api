@@ -111,3 +111,23 @@
 {"level":"info","message":"estamos girando a 3000","sercice":"smoke-signal-service","time":"2021-11-13T03:04:56.902Z"}
 {"level":"info","message":"loki made the db and connected","sercice":"smoke-signal-service","time":"2021-11-13T03:05:27.565Z"}
 {"level":"info","message":"estamos girando a 3000","sercice":"smoke-signal-service","time":"2021-11-13T03:05:27.642Z"}
+{"level":"info","message":"loki made the db and connected","sercice":"smoke-signal-service","time":"2021-11-13T03:09:49.997Z"}
+{"level":"info","message":"trainerController -> trainerService success","sercice":"smoke-signal-service","time":"2021-11-13T03:09:49.997Z"}
+{"level":"info","message":"instance of repo created inside trainerservice","sercice":"smoke-signal-service","time":"2021-11-13T03:09:49.997Z"}
+{"level":"info","message":"inside trainersService constructor","sercice":"smoke-signal-service","time":"2021-11-13T03:09:49.997Z"}
+{"level":"error","message":"no loki db created","sercice":"smoke-signal-service","time":"2021-11-13T03:09:49.997Z"}
+{"level":"info","message":"loki made the db and connected","sercice":"smoke-signal-service","time":"2021-11-13T03:10:47.993Z"}
+{"level":"info","message":"trainerController -> trainerService success","sercice":"smoke-signal-service","time":"2021-11-13T03:10:47.993Z"}
+{"level":"info","message":"inside trainersService constructor","sercice":"smoke-signal-service","time":"2021-11-13T03:10:47.993Z"}
+{"level":"error","message":"no loki db created","sercice":"smoke-signal-service","time":"2021-11-13T03:10:47.993Z"}
+{"level":"info","message":"loki made the db and connected","sercice":"smoke-signal-service","time":"2021-11-13T03:11:09.674Z"}
+{"level":"info","message":"trainerController -> trainerService success","sercice":"smoke-signal-service","time":"2021-11-13T03:11:09.674Z"}
+{"level":"info","message":"inside trainersService constructor","sercice":"smoke-signal-service","time":"2021-11-13T03:11:09.674Z"}
+{"level":"error","message":"no loki db created","sercice":"smoke-signal-service","time":"2021-11-13T03:11:09.674Z"}
+{"level":"info","message":"loki made the db and connected","sercice":"smoke-signal-service","time":"2021-11-13T03:11:49.432Z"}
+{"level":"info","message":"trainerController -> trainerService success","sercice":"smoke-signal-service","time":"2021-11-13T03:11:49.432Z"}
+{"level":"info","message":"inside trainersService constructor","sercice":"smoke-signal-service","time":"2021-11-13T03:11:49.432Z"}
+{"level":"error","message":"no loki db created","sercice":"smoke-signal-service","time":"2021-11-13T03:11:49.432Z"}
+{"level":"info","message":"loki made the db and connected","sercice":"smoke-signal-service","time":"2021-11-13T03:17:11.174Z"}
+{"level":"info","message":"estamos girando a 3000","sercice":"smoke-signal-service","time":"2021-11-13T03:17:11.306Z"}
+{"level":"info","message":"trainerController -> trainerService success","sercice":"smoke-signal-service","time":"2021-11-13T03:17:11.174Z"}

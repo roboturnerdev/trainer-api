@@ -1,7 +1,7 @@
 // might need router here
 
-// const TrainersService = require('../services/TrainersService');
-// const TrainersServiceInstance = new TrainersService();
+const TrainersService = require('../services/TrainersService');
+const TrainersServiceInstance = new TrainersService();
 
 // console.log("required trainerservice and instantiated it");
 const TrainersController = app => {
