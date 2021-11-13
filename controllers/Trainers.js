@@ -1,9 +1,9 @@
-// might need router here
+// CONTROLLER 'Sarah'
 
+const router = require('../routes');
 const TrainersService = require('../services/TrainersService');
 const TrainersServiceInstance = new TrainersService();
 
-// console.log("required trainerservice and instantiated it");
 const TrainersController = app => {
     console.log('***** inside trainerscontroller function');
     
@@ -22,6 +22,9 @@ const TrainersController = app => {
         next();
     } );
     console.log("headers set");
+
+    // use the ROUTER 'Kai'
+    app.use('/', router);
 };
 
 module.exports = TrainersController;

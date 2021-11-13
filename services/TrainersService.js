@@ -1,7 +1,5 @@
-const logger = require('./logger');
-console.log('inside TrainersService');
+// SERVICE 'Deborah'
 
-// need betty
 const TrainersRepository = require('../repositories/TrainersRepo');
 
 // need model
@@ -10,11 +8,11 @@ const Trainer = require('../api/models/trainer');
 class TrainersService {
     constructor() {
         console.log('inside trainersService constructor');
-        this.trainersRepo = new TrainersRepository(Trainer);
+        this.TrainersRepositoryInstance = new TrainersRepository(Trainer);
     }
 
     GetTrainers(){
-
+        
     };
 }
 
