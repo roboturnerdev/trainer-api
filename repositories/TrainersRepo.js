@@ -12,13 +12,6 @@ class TrainersRepo {
         this.trainersDb = context.addCollection('trainers');
 
         console.log('Loki made the db and connected');
-        const newTrainer1 = this.trainersDb.insert({
-            email: 'trainer@campgladiator.com',
-            phone: '1234567890',
-            firstName: 'Fearless',
-            lastName: 'Contender',
-            address: '123 Anywhere St, USA'
-        });
     }
 
     async getTrainers() {
@@ -58,7 +51,7 @@ class TrainersRepo {
             if (update.path === 'phone') { trainer.phone = update.value; }
             this.trainersDb.update(trainer);
         }
-        
+
         const updatedTrainer = await this.trainersDb.by('$loki', id);
         return updatedTrainer;
     }
