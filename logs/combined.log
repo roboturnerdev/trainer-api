@@ -19,3 +19,16 @@
 {"level":"error","message":"no server","service":"user-service","time":"2021-11-13T05:16:22.326Z"}
 {"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T05:21:01.345Z"}
 {"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T05:22:23.444Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T05:29:44.080Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T05:30:19.135Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T05:30:27.725Z"}
+{"level":"error","message":"no server","service":"user-service","time":"2021-11-13T05:44:04.790Z"}
+{"level":"error","message":"no server","service":"user-service","time":"2021-11-13T05:45:20.265Z"}
+{"level":"error","message":"no server","service":"user-service","time":"2021-11-13T05:46:20.562Z"}
+{"level":"error","message":"no server","service":"user-service","time":"2021-11-13T05:47:06.325Z"}
+{"level":"error","message":"no server","service":"user-service","time":"2021-11-13T05:47:40.196Z"}
+{"level":"error","message":"no server","service":"user-service","time":"2021-11-13T05:47:55.605Z"}
+{"level":"error","message":"no server","service":"user-service","time":"2021-11-13T05:48:45.599Z"}
+{"level":"error","message":"no server","service":"user-service","time":"2021-11-13T05:49:17.844Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T05:50:41.444Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T05:51:14.595Z"}
