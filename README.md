@@ -1,3 +1,5 @@
+UPDATE: I am refactoring this to use a Controller - Service - Repository design structure. Check the branch 'refactor' to see that.
+
 A friend showed me a job interview question for .NET to create a RESTful API with a few endpoints.
 
 I have attempted to recreate that in JavaScript with Express, Node.js, and a cool in-memory db called loki-js mixed with json validation from ajv.
