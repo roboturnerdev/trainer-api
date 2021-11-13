@@ -1,15 +1,12 @@
 const TrainersRouter = require('./router');
 
 const routes = app => {
-    console.log('inside router function');
     
-    // middleware before the router
     app.use( ( req, res, next ) => {
-        console.log('inside headers middleware');
         res.setHeader( "Access-Control-Allow-Origin", "*" );
         res.setHeader(
           "Access-Control-Allow-Methods",
-          "GET,  PUT, PATCH"
+          "GET, POST, OPTIONS, PUT, PATCH, DELETE"
         );
         res.setHeader(
           "Access-Control-Allow-Headers",
@@ -17,6 +14,10 @@ const routes = app => {
         );
         res.setHeader( "Access-Control-Allow-Credentials", true );
         res.removeHeader( "X-Powered-By" );
+        next();
+    } );
+
+    app.use((req, res, next) => {
         next();
     });
 

@@ -42,3 +42,123 @@
 {"level":"error","message":"no server","service":"user-service","time":"2021-11-13T06:14:28.093Z"}
 {"level":"error","message":"no server","service":"user-service","time":"2021-11-13T06:15:45.788Z"}
 {"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T06:16:24.890Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T06:27:38.627Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'trainer@campgladiator.com',\\r\\n    phone: '1234567890',\\r\\n    firstName: 'Fearless',\\r\\n    lastName: 'Contender',\\r\\n    address: '123 Anywhere St, USA'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:27:38.627Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:27:38.627Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T06:32:55.062Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:32:55.062Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T06:33:33.278Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:33:33.278Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:33:33.278Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:33:33.278Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T06:34:18.520Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:34:18.520Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T06:36:41.169Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:36:41.169Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T06:36:52.700Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:36:52.700Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:36:52.700Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:36:52.700Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:36:52.700Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:36:52.700Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:36:52.700Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:36:52.700Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:36:52.700Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T06:40:07.374Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:40:07.374Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T06:40:46.807Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:40:46.807Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T06:41:10.177Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:41:10.177Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T06:42:05.171Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:42:05.171Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:42:05.171Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T06:42:53.369Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T06:42:58.033Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T06:43:14.330Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:43:14.330Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:43:14.330Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T06:43:51.213Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:43:51.213Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T06:45:07.025Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T06:46:59.693Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:46:59.693Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T06:49:11.403Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:49:11.403Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T06:49:52.879Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:49:52.879Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T06:51:05.428Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:51:05.428Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:51:05.428Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T06:51:22.154Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:51:22.154Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T06:53:13.492Z"}
+{"level":"error","message":"{\"expose\":true,\"statusCode\":400,\"status\":400,\"body\":\"{\\r\\n    email: 'test@cg.com',\\r\\n    phone: '1231231234',\\r\\n    firstName: 'robert',\\r\\n    lastName: 'turner',\\r\\n    address: '123 main st, usa'\\r\\n}\",\"type\":\"entity.parse.failed\"}","service":"user-service","time":"2021-11-13T06:53:13.492Z"}
+{"level":"error","message":"no server","service":"user-service","time":"2021-11-13T06:58:45.527Z"}
+{"level":"error","message":"no server","service":"user-service","time":"2021-11-13T06:59:10.610Z"}
+{"level":"error","message":"no server","service":"user-service","time":"2021-11-13T06:59:23.385Z"}
+{"level":"error","message":"no server","service":"user-service","time":"2021-11-13T06:59:30.177Z"}
+{"level":"error","message":"no server","service":"user-service","time":"2021-11-13T06:59:36.873Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:00:40.821Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:00:42.752Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:00:44.569Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:01:09.911Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:01:18.439Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:01:19.612Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:01:27.034Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:02:35.558Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:02:43.736Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:03:04.335Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:03:42.240Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:03:47.205Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:03:49.537Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:04:06.940Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:05:35.038Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:05:51.435Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:09:48.995Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:13:34.572Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:15:28.211Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:15:59.432Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:16:16.148Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:29:37.270Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:29:41.200Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:29:57.203Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:30:39.649Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:32:15.205Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:32:23.685Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:32:55.014Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:33:51.677Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:34:16.786Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:35:57.244Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:37:30.603Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:37:52.345Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:38:09.171Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:38:21.108Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:38:25.849Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:38:40.328Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:38:54.771Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:39:00.600Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:39:10.897Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:39:37.367Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:40:11.725Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:40:22.274Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:40:33.114Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:41:06.970Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:42:42.506Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:45:38.132Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:47:32.725Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:47:39.226Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:50:02.779Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:50:03.378Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:51:21.932Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:51:22.893Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:52:02.239Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:52:24.480Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:52:40.096Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:53:02.287Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:54:43.257Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T07:55:05.587Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T08:00:19.182Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T08:00:20.424Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T08:00:26.187Z"}
+{"level":"info","message":"estamos girando a 3000","service":"user-service","time":"2021-11-13T08:02:07.599Z"}
