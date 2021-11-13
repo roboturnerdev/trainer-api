@@ -22,6 +22,10 @@ class TrainersService {
     async findTrainerById(id){
         return await this.TrainersRepositoryInstance.findTrainerById(id);
     }
+
+    async updateTrainer(id, updates) {
+        return await this.TrainersRepositoryInstance.updateTrainer(id, updates);
+    }
 }
 
 module.exports = TrainersService;

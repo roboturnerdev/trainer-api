@@ -20,3 +20,16 @@ module.exports.getTrainerById = async (req, res) => {
     const foundTrainer = await TrainersServiceInstance.findTrainerById(res.locals.id);
     res.json(foundTrainer);
 };
+
+module.exports.updateTrainer = async (req, res) => {
+    // trainer is always the id we sent patch req to
+    const found = await TrainersServiceInstance.findTrainerById(res.locals.id);
+    if(!found) {
+        res.send('no trainer with that id to update');
+    }
+    const updates = res.locals.updates;
+    console.log('IN CONTROLLER> updates: ');
+    console.log(updates);
+    const updatedTrainer = await TrainersServiceInstance.updateTrainer(res.locals.id, updates);
+    res.json(updatedTrainer);
+}
