@@ -5,10 +5,10 @@ if(process.env.NODE_ENV !== 'production') {
 const config = require('./config');
 const logger = require('./services/logger');
 
-try{
+// try{
     const ExpressLoader = require('./loaders/Express');
     new ExpressLoader();
-} catch(e) {
-    console.log("no server");
-    logger.error("no server");
-}
+// } catch(e) {
+//     console.log("no server");
+//     logger.error("no server");
+// }
