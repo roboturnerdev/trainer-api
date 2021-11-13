@@ -1,7 +1,7 @@
 const express = require('express');
 const morgan = require('morgan');
 const path = require('path');
-const TrainersController = require('../controllers/Trainers');
+const routes = require('../routes');
 const compression = require('compression');
 const logger = require('../services/Logger');
 const config = require('../config');
@@ -15,11 +15,11 @@ class ExpressLoader {
         // app.use(morgan("dev"));
         // app.use(compression());
         
-        // errorhandler last middleware
-        app.use( ExpressLoader.errorHandler );
+        // this needs to be the last middleware here before router
+        app.use(ExpressLoader.errorHandler);
 
-        // pass app to the CONTROLLER 'Sarah'
-        TrainersController(app);
+        // give app to the router and controller
+        routes(app);
 
         this.server = app.listen( config.port, () => {
             console.log(`estamos girando a ${config.port}`);
