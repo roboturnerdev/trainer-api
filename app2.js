@@ -7,10 +7,8 @@ const Loki = require('lokijs');
 const logger = require('./services/logger');
 
 try{
-    const db = new Loki('cg', {autosave: true, autoload: true, throttledSaves: true});  
-    console.log(db);
+    const db = new Loki('cg', {autosave: true, autoload: true, throttledSaves: true});
     const trainersDb = db.addCollection('trainers');
-    console.log(trainersDb)
     console.log('loki made the db and connected');
     logger.info('loki made the db and connected');
 
