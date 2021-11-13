@@ -131,3 +131,13 @@
 {"level":"info","message":"loki made the db and connected","sercice":"smoke-signal-service","time":"2021-11-13T03:17:11.174Z"}
 {"level":"info","message":"estamos girando a 3000","sercice":"smoke-signal-service","time":"2021-11-13T03:17:11.306Z"}
 {"level":"info","message":"trainerController -> trainerService success","sercice":"smoke-signal-service","time":"2021-11-13T03:17:11.174Z"}
+{"level":"info","message":"loki made the db and connected","sercice":"smoke-signal-service","time":"2021-11-13T03:27:07.493Z"}
+{"level":"info","message":"estamos girando a 3000","sercice":"smoke-signal-service","time":"2021-11-13T03:27:07.634Z"}
+{"level":"info","message":"loki made the db and connected","sercice":"smoke-signal-service","time":"2021-11-13T03:28:29.599Z"}
+{"level":"info","message":"estamos girando a 3000","sercice":"smoke-signal-service","time":"2021-11-13T03:28:29.726Z"}
+{"level":"info","message":"loki made the db and connected","sercice":"smoke-signal-service","time":"2021-11-13T03:28:45.232Z"}
+{"level":"info","message":"estamos girando a 3000","sercice":"smoke-signal-service","time":"2021-11-13T03:28:45.357Z"}
+{"level":"info","message":"loki made the db and connected","sercice":"smoke-signal-service","time":"2021-11-13T03:29:39.847Z"}
+{"level":"info","message":"estamos girando a 3000","sercice":"smoke-signal-service","time":"2021-11-13T03:29:39.966Z"}
+{"level":"info","message":"loki made the db and connected","sercice":"smoke-signal-service","time":"2021-11-13T03:32:56.439Z"}
+{"level":"info","message":"estamos girando a 3000","sercice":"smoke-signal-service","time":"2021-11-13T03:32:56.563Z"}

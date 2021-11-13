@@ -18,8 +18,7 @@ class ExpressLoader {
         // errorhandler last middleware
         app.use( ExpressLoader.errorHandler );
 
-        // FIX
-        // pass app to the CONTROLLER
+        // pass app to the CONTROLLER 'Sarah'
         TrainersController(app);
 
         this.server = app.listen( config.port, () => {

@@ -1,22 +1,13 @@
-const template = require('./routes-template');
+// ROUTER 'Kai'
 
-const routes = (app) => {
-    app.use((req, res, next) => {
-        res.setHeader( "Access-Control-Allow-Origin", "*");
-        res.setHeader(
-            "Access-Control-Allow-Methods",
-            "GET, PUT, PATCH"
-        );
-        res.setHeader(
-            "Access-Control-Allow-Headers",
-            "X-Requested-With, content-type, x-access-token, authorization"
-        );
-        res.setHeader( "Access-Control-Allow-Credentials", true );
-        res.removeHeader("X-Powered-By");
-        next();
-    });
+const express = require('express');
+const router = express.Router();
 
-    app.use('/', template);
-};
+console.log('inside the router');
 
-module.exports = routes;
+// routes
+router.all('/', (req, res) => {
+    res.send('yay');
+});
+
+module.exports = router;
