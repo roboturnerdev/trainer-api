@@ -7,17 +7,17 @@ const logger = require('../services/Logger');
 const config = require('../config');
 
 class ExpressLoader {
+
     constructor() {
         const app = express();
-        app.use(express.json());
+        app.use(express.urlencoded({ extended: true }));
         app.use(express.static(path.join(__dirname, "public")));
 
         // app.use(morgan("dev"));
         // app.use(compression());
-        
-        // this needs to be the last middleware here before router
-        app.use(ExpressLoader.errorHandler);
 
+        app.use(ExpressLoader.errorHandler);
+        
         // app to TrainersRouter
         routes(app);
 

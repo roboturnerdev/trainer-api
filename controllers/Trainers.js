@@ -8,6 +8,10 @@ const TrainersServiceInstance = new TrainersService();
 
 module.exports.getTrainers = async (req, res) => {
     const foundTrainers = await TrainersServiceInstance.getTrainers();
-    console.log('controller trainers: ', foundTrainers);
     res.json(foundTrainers);
+};
+
+module.exports.createNewTrainer = async (req, res) => {
+    const addedTrainer = await TrainersServiceInstance.createNewTrainer(res.locals.trainer);
+    res.json(addedTrainer);
 };

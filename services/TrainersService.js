@@ -6,14 +6,18 @@ const TrainersRepository = require('../repositories/TrainersRepo');
 const Trainer = require('../api/models/trainer');
 
 class TrainersService {
+
     constructor() {
-        console.log('inside TrainersService constructor');
         this.TrainersRepositoryInstance = new TrainersRepository(Trainer);
     }
 
     async getTrainers(){
         return await this.TrainersRepositoryInstance.getTrainers();
     };
+
+    async createNewTrainer(trainer){
+        return await this.TrainersRepositoryInstance.createNewTrainer(trainer);
+    }
 }
 
 module.exports = TrainersService;
