@@ -12,11 +12,7 @@ class TrainersService {
     }
 
     async getTrainers(){
-        console.log('inside Service.getTrainers()');
-        // this is where ASKING THE REPO TO find all trainers happens
-        const foundTrainers = await this.TrainersRepositoryInstance.getTrainers();
-        console.log('service trainers: ', foundTrainers);
-        return foundTrainers;
+        return await this.TrainersRepositoryInstance.getTrainers();
     };
 }
 
