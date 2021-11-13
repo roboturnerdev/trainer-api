@@ -23,6 +23,7 @@ class ExpressLoader {
         TrainersController(app);
 
         this.server = app.listen( config.port, () => {
+            console.log(`estamos girando a ${config.port}`);
             logger.info(`estamos girando a ${config.port}`);
         });
     }
