@@ -1,10 +1,7 @@
-const logger = require("../services/logger");
-console.log('inside trainersRepo');
-
 class TrainersRepo {
-    constructor() {
-        console.log('inside trainersRepo constructor');
-        logger.info('inside trainersRepo constructor');
+    constructor(Trainer) {
+        this.trainer = Trainer;
+        console.log('TrainerRepo created and knows the model');
     }
 }
 
