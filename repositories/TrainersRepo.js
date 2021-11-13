@@ -35,6 +35,15 @@ class TrainersRepo {
         });
         return addedTrainer;
     }
+
+    async findTrainerById(id) {
+        const foundTrainer = await this.trainersDb.by('$loki', id);
+        if(!foundTrainer){
+            console.log('no trainer w id');
+            return;
+        }
+        return foundTrainer;
+    }
 }
 
 module.exports = TrainersRepo;
