@@ -28,8 +28,6 @@ module.exports.updateTrainer = async (req, res) => {
         res.send('no trainer with that id to update');
     }
     const updates = res.locals.updates;
-    console.log('IN CONTROLLER> updates: ');
-    console.log(updates);
     const updatedTrainer = await TrainersServiceInstance.updateTrainer(res.locals.id, updates);
     res.json(updatedTrainer);
 }

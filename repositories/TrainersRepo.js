@@ -8,7 +8,7 @@ class TrainersRepo {
 
     constructor(Trainer) {
         console.log('TrainersRepo constructor. trying to create a db...');
-        const context = new Loki('cg', {autosave: true, autoload: true, throttledSaves: true});
+        const context = new Loki('cg');
         this.trainersDb = context.addCollection('trainers');
 
         console.log('Loki made the db and connected');
@@ -47,26 +47,19 @@ class TrainersRepo {
     }
 
     async updateTrainer(id, updates){
-        console.log("IN REPO");
-        console.log('id', id);
-        console.log('updates: ', updates);
+        const trainer = await this.trainersDb.by('$loki', id);
 
-        const filterTrainer = (obj) => obj.$loki === id;
-        const updateTrainer = (obj) => {
-            if (element.path === 'firstName') { obj.firstName = element.value; }
-            if (element.path === 'lastName') { obj.lastName = element.value; }
-            if (element.path === 'address') { obj.address = element.value; }
-            if (element.path === 'email') { obj.email = element.value; }
-            if (element.path === 'phone') { obj.phone = element.value; }
-            return;
-        };
-        updates.forEach((element) => {
-            this.trainersDb.updateWhere(filterTrainer, updateTrainer);
-        });
-
+        for(let i = 0; i < updates.length; i++) {
+            const update = updates[i];
+            if (update.path === 'firstName') { trainer.firstName = update.value; }
+            if (update.path === 'lastName') { trainer.lastName = update.value; }
+            if (update.path === 'email') { trainer.email = update.value; }
+            if (update.path === 'address') { trainer.address = update.value; }
+            if (update.path === 'phone') { trainer.phone = update.value; }
+            this.trainersDb.update(trainer);
+        }
+        
         const updatedTrainer = await this.trainersDb.by('$loki', id);
-        console.log('updatedTrainer: ');
-        console.log(updatedTrainer);
         return updatedTrainer;
     }
 }
