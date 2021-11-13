@@ -1,0 +1,20 @@
+{"level":"info","message":"loki connection successful","sercice":"smoke-signal-service","time":"2021-11-13T01:17:49.652Z"}
+{"level":"error","message":"no loki db created","sercice":"smoke-signal-service","time":"2021-11-13T01:17:49.652Z"}
+{"level":"info","message":"loki connection successful","sercice":"smoke-signal-service","time":"2021-11-13T01:18:13.363Z"}
+{"level":"error","message":"no loki db created","sercice":"smoke-signal-service","time":"2021-11-13T01:18:13.363Z"}
+{"level":"info","message":"loki connection successful","sercice":"smoke-signal-service","time":"2021-11-13T01:18:57.702Z"}
+{"level":"error","message":"no loki db created","sercice":"smoke-signal-service","time":"2021-11-13T01:18:57.702Z"}
+{"level":"info","message":"loki connection successful","sercice":"smoke-signal-service","time":"2021-11-13T01:19:15.035Z"}
+{"level":"error","message":"no loki db created","sercice":"smoke-signal-service","time":"2021-11-13T01:19:15.035Z"}
+{"level":"info","message":"loki connection successful","sercice":"smoke-signal-service","time":"2021-11-13T01:19:38.665Z"}
+{"level":"error","message":"no loki db created","sercice":"smoke-signal-service","time":"2021-11-13T01:19:38.665Z"}
+{"level":"info","message":"loki made the db and connected","sercice":"smoke-signal-service","time":"2021-11-13T01:20:46.044Z"}
+{"level":"error","message":"no loki db created","sercice":"smoke-signal-service","time":"2021-11-13T01:20:46.044Z"}
+{"level":"info","message":"loki made the db and connected","sercice":"smoke-signal-service","time":"2021-11-13T01:21:18.260Z"}
+{"level":"info","message":"estamos girando a 3000","sercice":"smoke-signal-service","time":"2021-11-13T01:21:18.356Z"}
+{"level":"info","message":"loki made the db and connected","sercice":"smoke-signal-service","time":"2021-11-13T01:26:03.450Z"}
+{"level":"info","message":"estamos girando a 3000","sercice":"smoke-signal-service","time":"2021-11-13T01:26:03.583Z"}
+{"level":"info","message":"loki made the db and connected","sercice":"smoke-signal-service","time":"2021-11-13T01:37:47.930Z"}
+{"level":"info","message":"estamos girando a 3000","sercice":"smoke-signal-service","time":"2021-11-13T01:37:48.023Z"}
+{"level":"info","message":"loki made the db and connected","sercice":"smoke-signal-service","time":"2021-11-13T01:39:26.139Z"}
+{"level":"error","message":"no loki db created","sercice":"smoke-signal-service","time":"2021-11-13T01:39:26.139Z"}
