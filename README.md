@@ -4,11 +4,12 @@ A friend showed me a code challenge for C# using .NET to create a "production re
 
 I have attempted to recreate that in JavaScript with Express, Node.js, and a cool in-memory db called loki-js.
 
-TO RUN:
+TO START THE APP:
 
     cd to root directory of the project
 
-run: 
+and then run: 
+
     npm install
     
     npm start
@@ -27,6 +28,7 @@ NEXT UP:
 I used Postman to send the GET, PUT, and PATCH requests to the endpoints.
 
 ENDPOINTS:
+
     - GET '/' See All Trainers
     
     - PUT '/' Add New Trainer
